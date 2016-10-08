@@ -39,15 +39,14 @@ A python script *listener.py* reads the UDP packets from this port, processes th
 ## Setup & Installation
 Tx:  
 1. Compile and load the *srclight* module for the Transmitter.  
-
 Rx:  
-1. Connect the Receiver to the PC/Laptop via a USB cable.  
+2. Connect the Receiver to the PC/Laptop via a USB cable.  
 2. Compile and load the *adcval* module for the Receiver.  
 3. Check if the files /proc/adcval/lval & /proc/adcval/pval exist.  
 4. Add these lines to the file : **\etc\network\interfaces**   
 
-  iface usb1 inet static  
-    address *(choose an IP address for the BeagleBone)*  
+  **iface usb1 inet static**  
+    **address** *(choose an IP address for the BeagleBone)*  
 5. Connect the Android phone to the Receiver.  
 6. Bring the USB network interface up using the command :  
 
