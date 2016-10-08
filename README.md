@@ -48,12 +48,10 @@ Rx:
 
   iface usb1 inet static  
     address *(choose an IP address for the BeagleBone)*  
-
 5. Connect the Android phone to the Receiver.  
 6. Bring the USB network interface up using the command :  
 
   **ifup usb1**.  
-
 7. Configure SensorUDP application on the Android phone using the chosen IP address and port 12345, and start the transmission.  
 8. Compile and execute the *adcval_sender.c* program in the background.  
 
