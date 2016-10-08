@@ -43,7 +43,7 @@ Rx:
 2. Connect the Receiver to the PC/Laptop via a USB cable.  
 2. Compile and load the *adcval* module for the Receiver.  
 3. Check if the files /proc/adcval/lval & /proc/adcval/pval exist.  
-4. Add these lines to the file : **\etc\network\interfaces**   
+4. Add these lines to the file : **/etc/network/interfaces**   
 
   **iface usb1 inet static**  
     **address** *(choose an IP address for the BeagleBone)*  
